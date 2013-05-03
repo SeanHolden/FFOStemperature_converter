@@ -1,5 +1,6 @@
 {
   "version": "1.0",
+  "package_path": "http://192.34.61.214/package.zip",
   "name": "Unit Converter",
   "description": "A simple unit of measurement converter",
   "launch_path": "/index.html",
