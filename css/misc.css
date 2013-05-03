@@ -3,13 +3,14 @@
 }
 
 #conversion_type{
-  font-size:60%;
+  font-size:100%;
+  width:80%;
+  margin-top:10%;
 }
 
 .conversion_type_wrapper{
   font-size: 350%;
   font-weight:bold;
-  padding-top:20px;
   text-align: center;
 }
 
@@ -22,10 +23,11 @@
 }
 
 #number_value{
-  font-size:60%;
+  font-size:100%;
   font-weight:bold;
   width:20%;
   border-radius: 5px;
+  margin-top:15%;
 }
 
 .convert_button_wrapper{
@@ -34,6 +36,9 @@
 
 #convert_button{
   width:80%;
+  height:150%;
+  border-radius: 5px;
+  border:2px ridge black;
 }
 
 #result{

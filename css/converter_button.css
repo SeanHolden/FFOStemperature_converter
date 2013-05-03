@@ -1,0 +1,20 @@
+#convert_button {
+  font-family: 'helvetica neue' sans-serif;
+  font-size: 2em;
+  color: white;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.7), 1px 1px 1px rgba(255, 255, 255, 0.3);
+  display: block;
+  margin: 2em auto;
+  padding: 23px 37px 25px 35px;
+  cursor: pointer;
+  background-color: #2e0d05;
+  background-image: linear-gradient(273deg, #eb6847 30%, #e64219 40%);
+  border: none;
+  border-radius: 16px;
+  box-shadow: inset 0px 0px 1px 1px rgba(138, 40, 15, 0.9), inset 0px 0px 2px 3px rgba(230, 66, 25, 0.9), inset 1px 1px 1px 4px rgba(255, 255, 255, 0.8), inset 0px 0px 2px 7px rgba(235, 104, 71, 0.8), inset 0px 0px 4px 10px rgba(230, 66, 25, 0.9), 8px 10px 2px 6px rgba(92, 27, 10, 0.55), 0px 0px 3px 2px rgba(184, 53, 20, 0.9), 0px 0px 2px 6px rgba(230, 66, 25, 0.9), -1px -1px 1px 6px rgba(255, 255, 255, 0.9), 0px 0px 2px 11px rgba(230, 66, 25, 0.9), 0px 0px 1px 12px rgba(184, 53, 20, 0.9), 1px 3px 14px 14px rgba(0, 0, 0, 0.4); }
+
+#convert_button:active {
+  color: #d9d9d9;
+  padding: 26px 34px 22px 38px;
+  background-image: linear-gradient(273deg, #e64219 50%, #e85530 60%);
+  box-shadow: inset 3px 4px 3px 2px rgba(92, 27, 10, 0.55), inset 0px 0px 1px 1px rgba(138, 40, 15, 0.9), inset -1px -1px 2px 3px rgba(230, 66, 25, 0.9), inset -2px -2px 1px 3px rgba(255, 255, 255, 0.8), inset 0px 0px 2px 7px rgba(235, 104, 71, 0.8), inset 0px 0px 3px 10px rgba(230, 66, 25, 0.9), 0px 0px 3px 2px rgba(184, 53, 20, 0.9), 0px 0px 2px 6px rgba(230, 66, 25, 0.9), -1px -1px 1px 6px rgba(255, 255, 255, 0.9), 0px 0px 2px 11px rgba(230, 66, 25, 0.9), 0px 0px 1px 12px rgba(184, 53, 20, 0.9), 1px 3px 14px 14px rgba(0, 0, 0, 0.4); }
