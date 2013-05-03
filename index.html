@@ -31,20 +31,32 @@
                 <button id="install"><span class="icon icon-add">add</span></button>
             </menu>
             <h1 class="main_header1">
-                Celcius / Farenheit Converter
+                Celcius / Farenheit
             </h1>
         </header>
     </section>
 
-    <section>
-        <p>Hello! this is where the content will go!</p>
-        Enter value: <input type="text" name="cf_value">
+    <section class="conversion_type_wrapper">
+      <select id="conversion_type">
+        <option value ="f_to_c">Farenheit to Celcius</option>
+        <option value ="c_to_f">Celcius to Farenheit</option>
+      </select>
+    </section>
+
+    <section class="cf_value_wrapper">
+      <input type="number" name="number_value" id="number_value" /><span id="measurement_unit">&deg;F</span>
     </section>
 
     <section class="convert_button_wrapper">
-          <button class="convert_button">
-              Convert
-          </button>
+      <button id="convert_button">
+          Convert
+      </button>
     </section>
+
+    <section id="result"></section>
+
+    <script type="text/javascript" src="js/base.js"></script>
+    <script type="text/javascript" src="js/webapp.js"></script>
+    <script type="text/javascript" src="js/converter.js"></script>
 </body>
 </html>

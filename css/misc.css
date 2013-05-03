@@ -2,10 +2,42 @@
   text-align:center;
 }
 
+#conversion_type{
+  font-size:60%;
+}
+
+.conversion_type_wrapper{
+  font-size: 350%;
+  font-weight:bold;
+  padding-top:20px;
+  text-align: center;
+}
+
+.cf_value_wrapper{
+  font-size: 350%;
+  font-weight:bold;
+  padding-top:10px;
+  padding-bottom:20px;
+  text-align: center;
+}
+
+#number_value{
+  font-size:60%;
+  font-weight:bold;
+  width:20%;
+  border-radius: 5px;
+}
+
 .convert_button_wrapper{
   text-align:center;
 }
 
-.convert_button{
+#convert_button{
   width:80%;
+}
+
+#result{
+  text-align:center;
+  font-weight:bold;
+  font-size:350%;
 }
