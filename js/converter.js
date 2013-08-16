@@ -7,6 +7,10 @@ function farenheitToCelcius(){
     var farenheit_float = parseFloat(farenheit_str)
     var celcius = (5.0/9.0)*(farenheit_float-32)
     var result = celcius.toFixed(2)
+    // if decimal place is 00, remove the 00.
+    if (result.split('.')[1] == 00){
+      result = celcius.toFixed(0);
+    };
     return result.toString()
 };
 
@@ -15,6 +19,10 @@ function celciusToFarenheit(){
     var celcius_float = parseFloat(celcius_str)
     var farenheit = ((9.0/5.0)*celcius_float)+32
     var result = farenheit.toFixed(2)
+    // if decimal place is 00, remove the 00.
+    if (result.split('.')[1] == 00){
+      result = farenheit.toFixed(0);
+    };
     return result.toString()
 };
 
